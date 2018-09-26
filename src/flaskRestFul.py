@@ -22,7 +22,6 @@ class RegistUser(Resource):
         url = args['url']
         language = args['language']
 
-        url
         Collect(url, language)
         return {'url' : url, 'language' : language}
 
